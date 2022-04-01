@@ -13,7 +13,7 @@ export const CardDefault = () => {
         <div className="card-body">
           <p className="card-text">Nama/Tipe Mobil</p>
           <h5 className="card-title">Rp 430.000 / hari</h5>
-          <p className="card-text"><i class="fab fa-twitter me-2"></i>Start rent - Finish rent</p>
+          <p className="card-text"><i class={}></i>Start rent - Finish rent</p>
           <p className="card-text"><i class="fab fa-twitter me-2"></i> Updated at 4 Apr 2022, 09.00</p>
           <a href="#" className="btn btn-outline-danger"><i class="fab fa-twitter me-2"></i>Delete</a>
           <a href="#" className="btn btn-success"><i class="fab fa-twitter me-2"></i>Edit</a>

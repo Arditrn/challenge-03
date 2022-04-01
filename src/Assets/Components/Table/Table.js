@@ -13,13 +13,13 @@ export const Table = () => {
         <table class="table">
           <thead>
             <tr className='table-active'>
-              <th scope="col">No</th>
-              <th scope="col">User Email</th>
-              <th scope="col">Car</th>
-              <th scope="col">Start Rent</th>
-              <th scope="col">Finish Rent</th>
-              <th scope="col">Price</th>
-              <th scope="col">Status</th>
+              <th scope="col" className='notable'>No</th>
+              <th scope="col" className='namatable'>User Email</th>
+              <th scope="col" className='cartable'>Car</th>
+              <th scope="col" className='stable'>Start Rent</th>
+              <th scope="col" className='ftable'>Finish Rent</th>
+              <th scope="col" className='ptable'>Price</th>
+              <th scope="col" className='statustable'>Status</th>
             </tr>
           </thead>
           <tbody>
