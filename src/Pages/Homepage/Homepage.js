@@ -7,20 +7,23 @@ import './Homepage.css';
 export const Homepage = () => {
   return (
 
-      <div className='parent'>
-        <div className='sidebar'>
-          <SidebarDefault />
-        </div>
-
-        <div className='konten'>
-          <NavbarDefault />
-          <CardDefault />
-        </div>
-
+    <div className='Container'>
+      <nav>
+        <NavbarDefault/>
+      </nav>
+      <div className='Sidebar'>
+        <SidebarDefault/>
       </div>
+      <div className='content1'>konten 1</div>
+      <div className='content2'>
+        <CardDefault/>
+      </div>
+            
+    </div>
+
         
       
 
 
-  )
-}
+  );
+};

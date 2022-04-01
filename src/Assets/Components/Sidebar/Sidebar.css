@@ -1,36 +1,56 @@
 .sidebar {
+
     height: 100vh;
-    position: fixed;
-
-  
-
+    display: grid;
+    grid-template-rows: 1fr 1fr 9fr;
+    grid-gap: 0.3rem;
+    grid-template-areas: 
+    "boxsidebar1"
+    "boxsidebar2"
+    "boxsidebar3";
   }
-  .rectangle{
+
+  .rectanglesidebar{
     width: 34px;
     height: 34px;
     background: hsl(230, 45%, 87%);
-    
   }
 
-  .sidebar a {
-    
-    font-size: 12px;
-    color: white;
-  
-  }
-
-  .boxsidebar{
-      width: 65px;
-      height: 70px;
-      display: flex;
-      flex-direction: row;
-      background-color: blueviolet;
-      margin-bottom: 10px;
-  }
-
-  .icon{
+  .iconhome{
     width: 30px;
     height: 30px;
+    margin-top: 80px;
+
+  }
+  .sidebar a{
+    font-size: 12px;
+    color: white;
+    padding-top: 20px;
+  }
+  .iconcar{
+    width: 30px;
+    height: 30px;
+    margin-top: 155px;
+  }
+
+  .boxsidebar1{
+    grid-area: boxsidebar1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxsidebar2{
+    grid-area: boxsidebar2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxsidebar3{
+    height:70px;
+    grid-area: boxsidebar3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   

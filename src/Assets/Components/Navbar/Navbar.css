@@ -1,0 +1,30 @@
+.rectanglebrand{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    background: #CFD4ED;
+}
+.icon-menu{
+    width: 30px;
+    height: 30px;
+    transform: translateY(50%);
+    margin-left: 230px;
+}
+.iconprofil{
+    width: 30px;
+    height: 30px;
+    transform: translateY(50%);
+    margin-left: 270px;
+}
+.iconvector{
+    width: 20px;
+    height: 10px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+#navkanan{
+    margin-right: 100px;
+}
+.namaprofil{
+    margin-left: 40px;
+}

@@ -8,17 +8,17 @@ export const SidebarDefault = () => {
   return (
     <div className="sidebar">
         
-        <div className="boxsidebar">
-            <div className="rectangle"></div>
+        <div className="boxsidebar1">
+            <div className="rectanglesidebar"></div>
         </div>
 
-        <div className="boxsidebar">
-            <img src={fi_home} className="icon"></img>
+        <div className="boxsidebar2">
+            <img src={fi_home} className="iconhome"></img>
             <a href="#home">Dashboard</a>
         </div>
 
-        <div className="boxsidebar">
-            <img src={fi_cars} className="icon"></img>
+        <div className="boxsidebar3">
+            <img src={fi_cars} className="iconcar"></img>
             <a href="#services">Cars</a>
         </div>
         

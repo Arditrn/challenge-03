@@ -1,19 +1,31 @@
 
-.parent{
-    display: flex;
-    flex-direction: column;
+.Container{
+    display: grid;
     height: 100vh;
-    width: 100%;
+    grid-template-columns: 0.13fr 0.4fr 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Sidebar nav nav nav"
+    "Sidebar content1 content2 content2"
+    "Sidebar content1 content2 content2"
+    "Sidebar content1 content2 content2";
+    grid-gap: 0.3rem;
 }
-.sidebar{
-    width: 65px;
-    height: 100%;
+nav{
+    background-color: aliceblue;
+    grid-area: nav;
+}
+.Sidebar{
     background-color: darkblue;
+    grid-area: Sidebar;
 }
+.content1{
 
-.konten{
-    padding-left: 65px;
-    height: 100%;
-    
+    grid-area: content1;
+
+}
+.content2{
+
+    grid-area: content2;
 }
 
